@@ -8,7 +8,7 @@ public class Consumidor {
 		Fachada fachada=new Fachada();
 		fachada.graba(cliente);
 		fachada.graba(art);
-		fachada.graba(can);
+//		fachada.graba(can);
 		
 	}
 }
