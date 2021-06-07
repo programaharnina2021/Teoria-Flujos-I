@@ -9,6 +9,9 @@ public class ParaUI extends UI {
 	
 	public ParaUI() {
 		super();
+		if(valor>7) {
+			System.out.println();
+		}
 		facade=new Facade();
 		this.getBtnLLamar().addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
