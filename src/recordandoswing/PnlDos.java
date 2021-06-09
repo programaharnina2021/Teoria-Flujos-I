@@ -5,6 +5,9 @@ import net.miginfocom.swing.MigLayout;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.JTextPane;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 
 public class PnlDos extends JPanel {
 	private JTextField txtNombre;
@@ -14,7 +17,7 @@ public class PnlDos extends JPanel {
 	 * Create the panel.
 	 */
 	public PnlDos() {
-		setLayout(new MigLayout("", "[][][grow][]", "[]"));
+		setLayout(new MigLayout("", "[][][grow][]", "[][][grow]"));
 		
 		JLabel lblTuNombre = new JLabel("tu nombre");
 		add(lblTuNombre, "cell 0 0");
